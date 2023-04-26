@@ -5,13 +5,13 @@
 
 ====== Advisor: Prof. Haynes Heaton ==
 
-~ 
+~~~
 Description:
 *   Scaphase (i.e. Scaffold Haplotype Phasing) is a bash script that
 * integrates a serious of processes to perform haplotype phasing. It
 * generates the counts of alleles based on the input reference
 * sequence (a .fa / .fasta file) and hi-C reads (two .fq/.fastq/.gz files).
-~
+~~~
 ------ Usage:
 - input:  1. ref.fa
 -         2. read1.fq / read1.fq.gz (.gz preferred)
