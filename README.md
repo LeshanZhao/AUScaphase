@@ -5,12 +5,13 @@
 
 ====== Advisor: Prof. Haynes Heaton ==
 
-****** Description:
+~ 
+Description:
 *   Scaphase (i.e. Scaffold Haplotype Phasing) is a bash script that
 * integrates a serious of processes to perform haplotype phasing. It
 * generates the counts of alleles based on the input reference
 * sequence (a .fa / .fasta file) and hi-C reads (two .fq/.fastq/.gz files).
-
+~
 ------ Usage:
 - input:  1. ref.fa
 -         2. read1.fq / read1.fq.gz (.gz preferred)
@@ -28,10 +29,11 @@ bash scaphase.sh \\
 /data1/scaphase/hic-dovetail/28791_7_R1.fq.gz \
 /data1/scaphase/hic-dovetail/28791_7_R2.fq.gz \
 /data1/scaphase/hic-dovetail/scaffolds_FINAL.agp \
-./scaphase_output.out
+/scaphase_output.out
 ```
 
-~~~~~~ Prerequisites:
+~~~~~~
+Prerequisites:
 The following softwares in the environment are required:
 > minimap2-2.24 (r1122) (or similar versions)
 > samtools 1.15.1 (or similar versions)
@@ -41,4 +43,4 @@ The following softwares in the environment are required:
 The following libraries in the python or conda environment are required:
 > pysam 0.15.3 (or similar versions)
 > pyvcf 0.6.8 (or similar versions)
-
+~
